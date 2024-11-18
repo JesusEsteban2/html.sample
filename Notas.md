@@ -29,9 +29,20 @@
 -   Material Icon Theme
 -   GitHub Theme
 
-![alt](https://es.wikipedia.org/wiki/Archivo:PNG_transparency_demonstration_1.png)
+![alt](https://es.wikipedia.org/wiki/Archivo:SVG_logo.svg)
 
 ### Fuentes de referencia
 
 -   MDN Web Docs
 -   Web.dev
+-   manz.dev
+-   codeAcademy.com
+-   freeCodeCamp.org
+-   w3.org
+-   whatwg.org
+-   https://caniuse.com/
+
+-   Estructura
+-   Seo
+-   Usabilidad
+-   Performance
