@@ -67,3 +67,5 @@ Buenas prácticas
 -   una lista ol o ul solo debe contener li. Para utilizar listas anidadas, el siguiente nivel debe estar dentro de un li
 -   SVG formato optimo (flaticons.com, (https://www.svgrepo.com/))
 -   validar HTML en (https://validator.w3.org/)
+-   validar en el navegador (lighthouse)
+-   validar en https://www.opengraph.xyz/ para ver evaluación en redes sociales.
