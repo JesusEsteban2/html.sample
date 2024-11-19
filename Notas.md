@@ -46,3 +46,21 @@
 -   Seo
 -   Usabilidad
 -   Performance
+
+Creacion de repositorio.
+
+-   Crear Carpeta
+-   git init
+-   git ignore (.gitignore)
+-   readme (readme.md)
+-   npn init (package.json)
+-   editorconfig (.editorconfig)
+-   git add .
+-   git commit -m "Initial commit"
+-   Crear repositorio en Github
+-   git remote add <nombre> <url>
+-   git push <name>
+
+Buenas prácticas
+
+-   1 solo <h1> en cada fichero.
