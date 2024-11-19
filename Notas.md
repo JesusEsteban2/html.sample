@@ -47,13 +47,13 @@
 -   Usabilidad
 -   Performance
 
-Creacion de repositorio.
+Creación de repositorio.
 
 -   Crear Carpeta
 -   git init
 -   git ignore (.gitignore)
 -   readme (readme.md)
--   npn init (package.json)
+-   npm init -y (package.json)
 -   editorconfig (.editorconfig)
 -   git add .
 -   git commit -m "Initial commit"
@@ -64,3 +64,6 @@ Creacion de repositorio.
 Buenas prácticas
 
 -   1 solo <h1> en cada fichero.
+-   una lista ol o ul solo debe contener li. Para utilizar listas anidadas, el siguiente nivel debe estar dentro de un li
+-   SVG formato optimo (flaticons.com, (https://www.svgrepo.com/))
+-   validar HTML en (https://validator.w3.org/)
