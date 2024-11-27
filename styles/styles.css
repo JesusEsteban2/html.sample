@@ -1,7 +1,98 @@
+/* Selector universal '*' */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 5px 10px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Selector individuales */
+/* Selector por etiqueta */
 p {
     width: 100px;
     height: 50px;
     padding: 20px;
     border: 1px solid;
     color: blue;
+}
+
+/* Selector por id */
+
+#parrafo1 {
+    width: 100px;
+    height: 50px;
+    padding: 20px;
+    border: 1px solid;
+    color: red;
+}
+
+/* Selector por clase */
+
+.claparr {
+    width: 100px;
+    height: 50px;
+    padding: 20px;
+    border: 1px solid;
+    color: rebeccapurple;
+}
+
+/* Selector por atributo */
+
+[title] {
+    width: 100px;
+    height: 50px;
+    padding: 20px;
+    border: 1px solid;
+    color: orangered;
+}
+
+[title="alert"] {
+    width: 100px;
+    height: 50px;
+    padding: 20px;
+    border: 1px solid;
+    color: orangered;
+    background-color: aqua;
+}
+
+/* Alternativa por atributo a los id
+
+[id="parrafo1"] {
+    width: 100px;
+    height: 50px;
+    padding: 20px;
+    border: 1px solid;
+    color: orangered;
+    background-color: aqua;
+}
+
+*/
+
+/* Selector combinados */
+
+/* Selector descendiente " " */
+article p {
+    text-decoration: underline;
+}
+/* Selector hijo  ">" */
+article > p {
+    text-decoration: background-color=grey;
+}
+
+/* Selector hermano "~" */
+
+/* Selector hermano siguiente "+" */
+
+/* Anidamiento */
+
+section {
+    p {
+        text-decoration: background-color=rgb(153, 10, 10);
+    }
 }
