@@ -61,6 +61,14 @@ p {
     background-color: aqua;
 }
 
+/* operadores 
+=  --> Es igual
+^= --> Empieza
+$= --> Termina
+*= --> Contiene
+
+*/
+
 /* Alternativa por atributo a los id
 
 [id="parrafo1"] {
@@ -74,18 +82,23 @@ p {
 
 */
 
-/* Selector combinados */
+/* Selector anidados */
 
-/* Selector descendiente " " */
+section {
+    & > p {
+    }
+}
+
+/* Selector descendientes " " */
 article p {
     text-decoration: underline;
 }
-/* Selector hijo  ">" */
+/* Selector hijos  ">" */
 article > p {
     text-decoration: background-color=grey;
 }
 
-/* Selector hermano "~" */
+/* Selector hermanos "~" */
 
 /* Selector hermano siguiente "+" */
 
@@ -96,3 +109,9 @@ section {
         text-decoration: background-color=rgb(153, 10, 10);
     }
 }
+
+/* Selector pseudo clases ":" */
+
+/* Selector pseudo Elemento "::" */
+
+/* Selector section:has(.sport) las secciones que tienen descendientes que pertenecen a la clase .sport (Se selecciona 'section' y no a los descendientes de el ":has" */
