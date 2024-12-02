@@ -115,3 +115,7 @@ section {
 /* Selector pseudo Elemento "::" */
 
 /* Selector section:has(.sport) las secciones que tienen descendientes que pertenecen a la clase .sport (Se selecciona 'section' y no a los descendientes de el ":has" */
+
+/* Reset CSS
+https://www.joshwcomeau.com/css/custom-css-reset/
+*/
