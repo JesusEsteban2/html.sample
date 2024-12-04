@@ -20,8 +20,8 @@ body {
 /* Mobile first o diseño ascendente */
 
 :root {
-    --font-base: 'Roboto', sans-serif;
-    --font-tech: 'Chakra Petch', sans-serif;
+    --font-base: "Roboto", sans-serif;
+    --font-tech: "Chakra Petch", sans-serif;
 }
 
 body {
@@ -59,19 +59,44 @@ nav {
 header {
     background-color: brown;
     color: bisque;
-    padding: 2rem;
-    nav ul {
-        display: flex;
-        justify-content: space-between;
+    padding: 2px;
+    nav {
+        position: sticky;
+
+        h1 {
+            padding-block: 0;
+            height: 4rem;
+        }
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
     }
-    [class*='fa-'] {
+    [class*="fa-"] {
         font-size: 2rem;
     }
 }
 
+/* Opcion de desplazamiento a ocultación
+{
+position: absolute;
+left: -10000
+}
+*/
+.menu-tablet {
+    display: none;
+}
+
 footer {
+    position: fixed;
+    bottom: 0;
+    background-color: brown;
     text-align: center;
     padding-block-end: 1rem;
+    width: 100%;
+    padding-block: 1rem;
 }
 
 main {
@@ -84,18 +109,45 @@ main {
     border: 1px solid brown;
 }
 
-/* @media (min-width: 400px) { */
-@media (width > 700px) {
+@media (width > 450px) {
     body {
-        background-color: rgb(250, 206, 153);
+        background-color: rgb(29, 211, 29);
     }
+
+    .menu-header {
+        flex-basis: 100%;
+        h1 {
+            text-align: center;
+        }
+    }
+
+    header nav {
+        ul {
+            justify-content: space-evenly;
+        }
+    }
+    .menu-mobile {
+        display: none;
+    }
+    .menu-tablet {
+        display: initial;
+    }
+}
+
+@media (width > 560px) {
+    body {
+        background-color: rgb(153, 214, 250);
+    }
+}
+
+@media (width > 600px) {
+    body {
+        background-color: rgb(153, 29, 184);
+    }
+
     .articles-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1.5rem;
     }
-}
-
-/* @media (min-width: 800px) { */
-@media (width > 1000px) {
 }
