@@ -81,3 +81,8 @@ Buenas prácticas
 - Articulo es un agrupamiento que se puede comprender sin necesidad de más información (<article>)
 - Sección es un agrupamiento que agrupa una parte de elementos realcionados. (<section>)
 - Div es un agrupamiento para su uso posterior (CSS o Javascript)
+
+Diseños de interfaces
+https://bentogrids.com/
+https://grid.layoutit.com/
+https://icons8.com/lunacy
