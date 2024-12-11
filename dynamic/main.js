@@ -6,6 +6,8 @@ function countWords(sentence = "") {
     return result;
 }
 
+// '⭕''❌'
+
 function makePassword(lengPass = 0) {
     const letters = "abcdefghijklmnñopqrstuvxyz";
     let result = "";
